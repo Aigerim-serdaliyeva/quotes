@@ -1,6 +1,5 @@
 <template>
-    <div class="alert alert-warning alert-dismissible fade show" role="alert"
-    >
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
         <slot />
         <button 
             type="button" class="close" aria-label="Close"

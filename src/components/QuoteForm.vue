@@ -41,7 +41,6 @@ export default {
             showAlert: "alert/showAlert"
         }),
         add() {
-            console.log(this.quotesCount)
             if (this.quoteText) {
                 if (this.quotesCount >= 10) {
                     return this.showAlert()
