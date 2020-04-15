@@ -1,0 +1,11 @@
+@import "./fonts";
+
+$default_family: Arial, sans-serif;
+
+body {
+    min-width: 320px;
+    position: relative;
+    font-family: $default_family !important;
+    font-weight: normal;
+    opacity: 1;
+}
