@@ -16,13 +16,10 @@
                 </div>
             </div>
       </div>
-
-      <Modal />
   </div>
 </template>
 
 <script>
-import Modal from './components/Modal.vue';
 import { mapGetters, mapActions } from "vuex";
 import Quote from './components/Quote.vue';
 import QuoteProgress from './components/QuoteProgress.vue';
@@ -30,7 +27,7 @@ import QuoteForm from './components/QuoteForm.vue';
 
 export default {
   name: 'App',
-  components: { QuoteForm, QuoteProgress, Quote, Modal },
+  components: { QuoteForm, QuoteProgress, Quote },
   computed: {
       ...mapGetters({
           quotes: "quotes/quotes",
